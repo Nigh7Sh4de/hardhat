@@ -35,9 +35,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nomicfoundation/hardhat-network-helpers", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:1.0.8"],\
             ["@nomicfoundation/hardhat-toolbox", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:3.0.0"],\
             ["@nomicfoundation/hardhat-verify", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:1.0.4"],\
+            ["@openzeppelin/contracts", "npm:4.9.2"],\
             ["@typechain/ethers-v6", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:0.4.2"],\
             ["@typechain/hardhat", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:8.0.2"],\
+            ["@types/chai", "npm:4.3.5"],\
+            ["@types/chai-as-promised", "npm:7.1.5"],\
+            ["@types/mocha", "npm:10.0.1"],\
+            ["@types/node", "npm:20.4.2"],\
             ["chai", "npm:4.3.7"],\
+            ["chai-as-promised", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:7.1.1"],\
             ["ethers", "npm:6.6.4"],\
             ["hardhat", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:2.17.0"],\
             ["hardhat-gas-reporter", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:1.0.9"],\
@@ -853,13 +859,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@nomicfoundation/hardhat-chai-matchers", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:2.0.1"],\
             ["@nomicfoundation/hardhat-ethers", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:3.0.4"],\
-            ["@types/chai", null],\
+            ["@types/chai", "npm:4.3.5"],\
             ["@types/chai-as-promised", "npm:7.1.5"],\
             ["@types/ethers", null],\
             ["@types/hardhat", null],\
             ["@types/nomicfoundation__hardhat-ethers", null],\
             ["chai", "npm:4.3.7"],\
-            ["chai-as-promised", "virtual:20b37b65d1d63490ff13ac87a3bb9ac2e817d0c753d901c72b1835a8e7f90963b1dc9fe3e2d0fc7382fb04aa16c3013e78682c6f4f2e84823c48a4446f6ee811#npm:7.1.1"],\
+            ["chai-as-promised", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:7.1.1"],\
             ["deep-eql", "npm:4.1.3"],\
             ["ethers", "npm:6.6.4"],\
             ["hardhat", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:2.17.0"],\
@@ -947,12 +953,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nomicfoundation/hardhat-verify", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:1.0.4"],\
             ["@typechain/ethers-v6", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:0.4.2"],\
             ["@typechain/hardhat", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:8.0.2"],\
-            ["@types/chai", null],\
+            ["@types/chai", "npm:4.3.5"],\
             ["@types/ethers", null],\
             ["@types/hardhat", null],\
             ["@types/hardhat-gas-reporter", null],\
-            ["@types/mocha", null],\
-            ["@types/node", null],\
+            ["@types/mocha", "npm:10.0.1"],\
+            ["@types/node", "npm:20.4.2"],\
             ["@types/nomicfoundation__hardhat-chai-matchers", null],\
             ["@types/nomicfoundation__hardhat-ethers", null],\
             ["@types/nomicfoundation__hardhat-network-helpers", null],\
@@ -1153,6 +1159,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@npmcli/fs", "npm:3.1.0"],\
             ["semver", "npm:7.5.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@openzeppelin/contracts", [\
+        ["npm:4.9.2", {\
+          "packageLocation": "./.yarn/cache/@openzeppelin-contracts-npm-4.9.2-babe0162a9-0538b18fe2.zip/node_modules/@openzeppelin/contracts/",\
+          "packageDependencies": [\
+            ["@openzeppelin/contracts", "npm:4.9.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1500,6 +1515,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-minimatch-npm-5.1.2-aab9c394d3-0391a28286.zip/node_modules/@types/minimatch/",\
           "packageDependencies": [\
             ["@types/minimatch", "npm:5.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/mocha", [\
+        ["npm:10.0.1", {\
+          "packageLocation": "./.yarn/cache/@types-mocha-npm-10.0.1-7c94e9e170-224ea9fce7.zip/node_modules/@types/mocha/",\
+          "packageDependencies": [\
+            ["@types/mocha", "npm:10.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2423,11 +2447,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:20b37b65d1d63490ff13ac87a3bb9ac2e817d0c753d901c72b1835a8e7f90963b1dc9fe3e2d0fc7382fb04aa16c3013e78682c6f4f2e84823c48a4446f6ee811#npm:7.1.1", {\
-          "packageLocation": "./.yarn/__virtual__/chai-as-promised-virtual-07fc8ecf9f/0/cache/chai-as-promised-npm-7.1.1-cdc17e4612-7262868a5b.zip/node_modules/chai-as-promised/",\
+        ["virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:7.1.1", {\
+          "packageLocation": "./.yarn/__virtual__/chai-as-promised-virtual-8e46680581/0/cache/chai-as-promised-npm-7.1.1-cdc17e4612-7262868a5b.zip/node_modules/chai-as-promised/",\
           "packageDependencies": [\
-            ["chai-as-promised", "virtual:20b37b65d1d63490ff13ac87a3bb9ac2e817d0c753d901c72b1835a8e7f90963b1dc9fe3e2d0fc7382fb04aa16c3013e78682c6f4f2e84823c48a4446f6ee811#npm:7.1.1"],\
-            ["@types/chai", null],\
+            ["chai-as-promised", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:7.1.1"],\
+            ["@types/chai", "npm:4.3.5"],\
             ["chai", "npm:4.3.7"],\
             ["check-error", "npm:1.0.2"]\
           ],\
@@ -4273,9 +4297,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nomicfoundation/hardhat-network-helpers", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:1.0.8"],\
             ["@nomicfoundation/hardhat-toolbox", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:3.0.0"],\
             ["@nomicfoundation/hardhat-verify", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:1.0.4"],\
+            ["@openzeppelin/contracts", "npm:4.9.2"],\
             ["@typechain/ethers-v6", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:0.4.2"],\
             ["@typechain/hardhat", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:8.0.2"],\
+            ["@types/chai", "npm:4.3.5"],\
+            ["@types/chai-as-promised", "npm:7.1.5"],\
+            ["@types/mocha", "npm:10.0.1"],\
+            ["@types/node", "npm:20.4.2"],\
             ["chai", "npm:4.3.7"],\
+            ["chai-as-promised", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:7.1.1"],\
             ["ethers", "npm:6.6.4"],\
             ["hardhat", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:2.17.0"],\
             ["hardhat-gas-reporter", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:1.0.9"],\
@@ -7561,7 +7591,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tsconfig/node12", "npm:1.0.11"],\
             ["@tsconfig/node14", "npm:1.0.3"],\
             ["@tsconfig/node16", "npm:1.0.4"],\
-            ["@types/node", null],\
+            ["@types/node", "npm:20.4.2"],\
             ["@types/swc__core", null],\
             ["@types/swc__wasm", null],\
             ["@types/typescript", null],\
