@@ -1,6 +1,6 @@
 {
-  "name": "hardhat",
-  "version": "1.0.0",
+  "name": "road-to-web3",
+  "version": "0.0.0",
   "main": "index.js",
   "license": "MIT",
   "packageManager": "yarn@3.6.1",
