@@ -12,14 +12,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     ],\
     "dependencyTreeRoots": [\
       {\
-        "name": "hardhat",\
+        "name": "road-to-web3",\
         "reference": "workspace:."\
       }\
     ],\
     "enableTopLevelFallback": true,\
     "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
     "fallbackExclusionList": [\
-      ["hardhat", ["workspace:."]]\
+      ["road-to-web3", ["workspace:."]]\
     ],\
     "fallbackPool": [\
     ],\
@@ -30,26 +30,26 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@nomicfoundation/ethereumjs-trie", "npm:6.0.1"],\
             ["@nomicfoundation/ethereumjs-util", "npm:9.0.1"],\
-            ["@nomicfoundation/hardhat-chai-matchers", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:2.0.1"],\
-            ["@nomicfoundation/hardhat-ethers", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:3.0.4"],\
-            ["@nomicfoundation/hardhat-network-helpers", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:1.0.8"],\
-            ["@nomicfoundation/hardhat-toolbox", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:3.0.0"],\
-            ["@nomicfoundation/hardhat-verify", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:1.0.4"],\
+            ["@nomicfoundation/hardhat-chai-matchers", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:2.0.1"],\
+            ["@nomicfoundation/hardhat-ethers", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:3.0.4"],\
+            ["@nomicfoundation/hardhat-network-helpers", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:1.0.8"],\
+            ["@nomicfoundation/hardhat-toolbox", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:3.0.0"],\
+            ["@nomicfoundation/hardhat-verify", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:1.0.4"],\
             ["@openzeppelin/contracts", "npm:4.9.2"],\
-            ["@typechain/ethers-v6", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:0.4.2"],\
-            ["@typechain/hardhat", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:8.0.2"],\
+            ["@typechain/ethers-v6", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:0.4.2"],\
+            ["@typechain/hardhat", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:8.0.2"],\
             ["@types/chai", "npm:4.3.5"],\
             ["@types/chai-as-promised", "npm:7.1.5"],\
             ["@types/mocha", "npm:10.0.1"],\
             ["@types/node", "npm:20.4.2"],\
             ["chai", "npm:4.3.7"],\
-            ["chai-as-promised", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:7.1.1"],\
+            ["chai-as-promised", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:7.1.1"],\
             ["ethers", "npm:6.6.4"],\
-            ["hardhat", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:2.17.0"],\
-            ["hardhat-gas-reporter", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:1.0.9"],\
-            ["solidity-coverage", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:0.8.4"],\
-            ["ts-node", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:10.9.1"],\
-            ["typechain", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:8.3.0"],\
+            ["hardhat", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:2.17.0"],\
+            ["hardhat-gas-reporter", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:1.0.9"],\
+            ["solidity-coverage", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:0.8.4"],\
+            ["ts-node", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:10.9.1"],\
+            ["typechain", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:8.3.0"],\
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"]\
           ],\
           "linkType": "SOFT"\
@@ -854,21 +854,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:2.0.1", {\
-          "packageLocation": "./.yarn/__virtual__/@nomicfoundation-hardhat-chai-matchers-virtual-20b37b65d1/0/cache/@nomicfoundation-hardhat-chai-matchers-npm-2.0.1-3682d3627c-53b517a784.zip/node_modules/@nomicfoundation/hardhat-chai-matchers/",\
+        ["virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:2.0.1", {\
+          "packageLocation": "./.yarn/__virtual__/@nomicfoundation-hardhat-chai-matchers-virtual-9ce927ee69/0/cache/@nomicfoundation-hardhat-chai-matchers-npm-2.0.1-3682d3627c-53b517a784.zip/node_modules/@nomicfoundation/hardhat-chai-matchers/",\
           "packageDependencies": [\
-            ["@nomicfoundation/hardhat-chai-matchers", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:2.0.1"],\
-            ["@nomicfoundation/hardhat-ethers", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:3.0.4"],\
+            ["@nomicfoundation/hardhat-chai-matchers", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:2.0.1"],\
+            ["@nomicfoundation/hardhat-ethers", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:3.0.4"],\
             ["@types/chai", "npm:4.3.5"],\
             ["@types/chai-as-promised", "npm:7.1.5"],\
             ["@types/ethers", null],\
             ["@types/hardhat", null],\
             ["@types/nomicfoundation__hardhat-ethers", null],\
             ["chai", "npm:4.3.7"],\
-            ["chai-as-promised", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:7.1.1"],\
+            ["chai-as-promised", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:7.1.1"],\
             ["deep-eql", "npm:4.1.3"],\
             ["ethers", "npm:6.6.4"],\
-            ["hardhat", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:2.17.0"],\
+            ["hardhat", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:2.17.0"],\
             ["ordinal", "npm:1.0.3"]\
           ],\
           "packagePeers": [\
@@ -892,15 +892,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:3.0.4", {\
-          "packageLocation": "./.yarn/__virtual__/@nomicfoundation-hardhat-ethers-virtual-998d706b6c/0/cache/@nomicfoundation-hardhat-ethers-npm-3.0.4-2815b0c416-57cbb13682.zip/node_modules/@nomicfoundation/hardhat-ethers/",\
+        ["virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:3.0.4", {\
+          "packageLocation": "./.yarn/__virtual__/@nomicfoundation-hardhat-ethers-virtual-9b22aca06b/0/cache/@nomicfoundation-hardhat-ethers-npm-3.0.4-2815b0c416-57cbb13682.zip/node_modules/@nomicfoundation/hardhat-ethers/",\
           "packageDependencies": [\
-            ["@nomicfoundation/hardhat-ethers", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:3.0.4"],\
+            ["@nomicfoundation/hardhat-ethers", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:3.0.4"],\
             ["@types/ethers", null],\
             ["@types/hardhat", null],\
             ["debug", "virtual:ac3d8e680759ce54399273724d44e041d6c9b73454d191d411a8c44bb27e22f02aaf6ed9d3ad0ac1c298eac4833cff369c9c7b84c573016112c4f84be2cd8543#npm:4.3.4"],\
             ["ethers", "npm:6.6.4"],\
-            ["hardhat", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:2.17.0"],\
+            ["hardhat", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:2.17.0"],\
             ["lodash.isequal", "npm:4.5.0"]\
           ],\
           "packagePeers": [\
@@ -920,13 +920,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:1.0.8", {\
-          "packageLocation": "./.yarn/__virtual__/@nomicfoundation-hardhat-network-helpers-virtual-ba34bb217a/0/cache/@nomicfoundation-hardhat-network-helpers-npm-1.0.8-bd3f511158-cf865301fa.zip/node_modules/@nomicfoundation/hardhat-network-helpers/",\
+        ["virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:1.0.8", {\
+          "packageLocation": "./.yarn/__virtual__/@nomicfoundation-hardhat-network-helpers-virtual-187cab08c2/0/cache/@nomicfoundation-hardhat-network-helpers-npm-1.0.8-bd3f511158-cf865301fa.zip/node_modules/@nomicfoundation/hardhat-network-helpers/",\
           "packageDependencies": [\
-            ["@nomicfoundation/hardhat-network-helpers", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:1.0.8"],\
+            ["@nomicfoundation/hardhat-network-helpers", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:1.0.8"],\
             ["@types/hardhat", null],\
             ["ethereumjs-util", "npm:7.1.5"],\
-            ["hardhat", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:2.17.0"]\
+            ["hardhat", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:2.17.0"]\
           ],\
           "packagePeers": [\
             "@types/hardhat",\
@@ -943,16 +943,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:3.0.0", {\
-          "packageLocation": "./.yarn/__virtual__/@nomicfoundation-hardhat-toolbox-virtual-4b3b6ed3e9/0/cache/@nomicfoundation-hardhat-toolbox-npm-3.0.0-3eef90baa9-d38d6d9224.zip/node_modules/@nomicfoundation/hardhat-toolbox/",\
+        ["virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:3.0.0", {\
+          "packageLocation": "./.yarn/__virtual__/@nomicfoundation-hardhat-toolbox-virtual-3a36ff9216/0/cache/@nomicfoundation-hardhat-toolbox-npm-3.0.0-3eef90baa9-d38d6d9224.zip/node_modules/@nomicfoundation/hardhat-toolbox/",\
           "packageDependencies": [\
-            ["@nomicfoundation/hardhat-toolbox", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:3.0.0"],\
-            ["@nomicfoundation/hardhat-chai-matchers", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:2.0.1"],\
-            ["@nomicfoundation/hardhat-ethers", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:3.0.4"],\
-            ["@nomicfoundation/hardhat-network-helpers", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:1.0.8"],\
-            ["@nomicfoundation/hardhat-verify", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:1.0.4"],\
-            ["@typechain/ethers-v6", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:0.4.2"],\
-            ["@typechain/hardhat", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:8.0.2"],\
+            ["@nomicfoundation/hardhat-toolbox", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:3.0.0"],\
+            ["@nomicfoundation/hardhat-chai-matchers", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:2.0.1"],\
+            ["@nomicfoundation/hardhat-ethers", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:3.0.4"],\
+            ["@nomicfoundation/hardhat-network-helpers", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:1.0.8"],\
+            ["@nomicfoundation/hardhat-verify", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:1.0.4"],\
+            ["@typechain/ethers-v6", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:0.4.2"],\
+            ["@typechain/hardhat", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:8.0.2"],\
             ["@types/chai", "npm:4.3.5"],\
             ["@types/ethers", null],\
             ["@types/hardhat", null],\
@@ -971,11 +971,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/typescript", null],\
             ["chai", "npm:4.3.7"],\
             ["ethers", "npm:6.6.4"],\
-            ["hardhat", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:2.17.0"],\
-            ["hardhat-gas-reporter", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:1.0.9"],\
-            ["solidity-coverage", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:0.8.4"],\
-            ["ts-node", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:10.9.1"],\
-            ["typechain", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:8.3.0"],\
+            ["hardhat", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:2.17.0"],\
+            ["hardhat-gas-reporter", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:1.0.9"],\
+            ["solidity-coverage", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:0.8.4"],\
+            ["ts-node", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:10.9.1"],\
+            ["typechain", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:8.3.0"],\
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"]\
           ],\
           "packagePeers": [\
@@ -1021,17 +1021,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:1.0.4", {\
-          "packageLocation": "./.yarn/__virtual__/@nomicfoundation-hardhat-verify-virtual-affc4b0893/0/cache/@nomicfoundation-hardhat-verify-npm-1.0.4-cc35f23ffb-754c345b59.zip/node_modules/@nomicfoundation/hardhat-verify/",\
+        ["virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:1.0.4", {\
+          "packageLocation": "./.yarn/__virtual__/@nomicfoundation-hardhat-verify-virtual-c9149efcb6/0/cache/@nomicfoundation-hardhat-verify-npm-1.0.4-cc35f23ffb-754c345b59.zip/node_modules/@nomicfoundation/hardhat-verify/",\
           "packageDependencies": [\
-            ["@nomicfoundation/hardhat-verify", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:1.0.4"],\
+            ["@nomicfoundation/hardhat-verify", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:1.0.4"],\
             ["@ethersproject/abi", "npm:5.7.0"],\
             ["@ethersproject/address", "npm:5.7.0"],\
             ["@types/hardhat", null],\
             ["cbor", "npm:8.1.0"],\
             ["chalk", "npm:2.4.2"],\
             ["debug", "virtual:ac3d8e680759ce54399273724d44e041d6c9b73454d191d411a8c44bb27e22f02aaf6ed9d3ad0ac1c298eac4833cff369c9c7b84c573016112c4f84be2cd8543#npm:4.3.4"],\
-            ["hardhat", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:2.17.0"],\
+            ["hardhat", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:2.17.0"],\
             ["lodash.clonedeep", "npm:4.5.0"],\
             ["semver", "npm:6.3.1"],\
             ["table", "npm:6.8.1"],\
@@ -1374,17 +1374,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:0.4.2", {\
-          "packageLocation": "./.yarn/__virtual__/@typechain-ethers-v6-virtual-706f71e2b3/0/cache/@typechain-ethers-v6-npm-0.4.2-d1ee1566ae-2b964b2a9b.zip/node_modules/@typechain/ethers-v6/",\
+        ["virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:0.4.2", {\
+          "packageLocation": "./.yarn/__virtual__/@typechain-ethers-v6-virtual-766e477e25/0/cache/@typechain-ethers-v6-npm-0.4.2-d1ee1566ae-2b964b2a9b.zip/node_modules/@typechain/ethers-v6/",\
           "packageDependencies": [\
-            ["@typechain/ethers-v6", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:0.4.2"],\
+            ["@typechain/ethers-v6", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:0.4.2"],\
             ["@types/ethers", null],\
             ["@types/typechain", null],\
             ["@types/typescript", null],\
             ["ethers", "npm:6.6.4"],\
             ["lodash", "npm:4.17.21"],\
-            ["ts-essentials", "virtual:706f71e2b3a3b6e59ff28a2552972870e1dca2bd4652039e4e366914abd7b1b13a7c7cfb9a75c3dcbcde1fc275e8438e94d8497e83416e7e6c3a4498237cc116#npm:7.0.3"],\
-            ["typechain", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:8.3.0"],\
+            ["ts-essentials", "virtual:766e477e25db591d9519f0d88252bb4e25a423c4ae07368a6cec145ab0f3af872025a4ab75492905f3b2473614e423c598f94651f259c8af2e9aea7150f63599#npm:7.0.3"],\
+            ["typechain", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:8.3.0"],\
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"]\
           ],\
           "packagePeers": [\
@@ -1406,19 +1406,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:8.0.2", {\
-          "packageLocation": "./.yarn/__virtual__/@typechain-hardhat-virtual-a615ebee43/0/cache/@typechain-hardhat-npm-8.0.2-12cd78541f-d8339fa72a.zip/node_modules/@typechain/hardhat/",\
+        ["virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:8.0.2", {\
+          "packageLocation": "./.yarn/__virtual__/@typechain-hardhat-virtual-1053401e18/0/cache/@typechain-hardhat-npm-8.0.2-12cd78541f-d8339fa72a.zip/node_modules/@typechain/hardhat/",\
           "packageDependencies": [\
-            ["@typechain/hardhat", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:8.0.2"],\
-            ["@typechain/ethers-v6", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:0.4.2"],\
+            ["@typechain/hardhat", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:8.0.2"],\
+            ["@typechain/ethers-v6", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:0.4.2"],\
             ["@types/ethers", null],\
             ["@types/hardhat", null],\
             ["@types/typechain", null],\
             ["@types/typechain__ethers-v6", null],\
             ["ethers", "npm:6.6.4"],\
             ["fs-extra", "npm:9.1.0"],\
-            ["hardhat", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:2.17.0"],\
-            ["typechain", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:8.3.0"]\
+            ["hardhat", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:2.17.0"],\
+            ["typechain", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:8.3.0"]\
           ],\
           "packagePeers": [\
             "@typechain/ethers-v6",\
@@ -2447,10 +2447,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:7.1.1", {\
-          "packageLocation": "./.yarn/__virtual__/chai-as-promised-virtual-8e46680581/0/cache/chai-as-promised-npm-7.1.1-cdc17e4612-7262868a5b.zip/node_modules/chai-as-promised/",\
+        ["virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:7.1.1", {\
+          "packageLocation": "./.yarn/__virtual__/chai-as-promised-virtual-95199b358a/0/cache/chai-as-promised-npm-7.1.1-cdc17e4612-7262868a5b.zip/node_modules/chai-as-promised/",\
           "packageDependencies": [\
-            ["chai-as-promised", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:7.1.1"],\
+            ["chai-as-promised", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:7.1.1"],\
             ["@types/chai", "npm:4.3.5"],\
             ["chai", "npm:4.3.7"],\
             ["check-error", "npm:1.0.2"]\
@@ -3322,10 +3322,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:590fbe6490b9c8876341aa6689216998e85d9e69ab346be799f1784dd043aae16f519971899fe38201e3a60ed16e302f9270e79ea9ee4782fb0a4d38a7f29a74#npm:0.2.25", {\
-          "packageLocation": "./.yarn/__virtual__/eth-gas-reporter-virtual-f16b4eed42/0/cache/eth-gas-reporter-npm-0.2.25-acdd7e3ce6-3bfa81e554.zip/node_modules/eth-gas-reporter/",\
+        ["virtual:faf9b095691e7336b9db8583e6104e2bbdc9b3b4ae1dc5a8e5d4719dd283d2d936ff0752d9e3179236642269070ab478749acddee0f3976d4a711603fd6d6234#npm:0.2.25", {\
+          "packageLocation": "./.yarn/__virtual__/eth-gas-reporter-virtual-08dd7a07d3/0/cache/eth-gas-reporter-npm-0.2.25-acdd7e3ce6-3bfa81e554.zip/node_modules/eth-gas-reporter/",\
           "packageDependencies": [\
-            ["eth-gas-reporter", "virtual:590fbe6490b9c8876341aa6689216998e85d9e69ab346be799f1784dd043aae16f519971899fe38201e3a60ed16e302f9270e79ea9ee4782fb0a4d38a7f29a74#npm:0.2.25"],\
+            ["eth-gas-reporter", "virtual:faf9b095691e7336b9db8583e6104e2bbdc9b3b4ae1dc5a8e5d4719dd283d2d936ff0752d9e3179236642269070ab478749acddee0f3976d4a711603fd6d6234#npm:0.2.25"],\
             ["@codechecks/client", null],\
             ["@ethersproject/abi", "npm:5.7.0"],\
             ["@solidity-parser/parser", "npm:0.14.5"],\
@@ -3340,7 +3340,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mocha", "npm:7.2.0"],\
             ["req-cwd", "npm:2.0.0"],\
             ["request", "npm:2.88.2"],\
-            ["request-promise-native", "virtual:f16b4eed4269d7118292979e2ca5469eb6253676ce606ff55cc0d528955aaf66f632b878c379236970819c32dc925567be67c22e634c20370997cc8e3ac7752c#npm:1.0.9"],\
+            ["request-promise-native", "virtual:08dd7a07d38755471a17322eb3f75b55e547691cb5520b27e6c3b5fe2be50b5611d782e7d7af6e3bfc71f6bb8d7504e690913e0c4d5f04805835ed5309482474#npm:1.0.9"],\
             ["sha1", "npm:1.1.1"],\
             ["sync-request", "npm:6.1.0"]\
           ],\
@@ -4221,10 +4221,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:2.17.0", {\
-          "packageLocation": "./.yarn/__virtual__/hardhat-virtual-01594553bd/0/cache/hardhat-npm-2.17.0-0d29ed6ef4-fcbbee2450.zip/node_modules/hardhat/",\
+        ["virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:2.17.0", {\
+          "packageLocation": "./.yarn/__virtual__/hardhat-virtual-b76fc0fef5/0/cache/hardhat-npm-2.17.0-0d29ed6ef4-fcbbee2450.zip/node_modules/hardhat/",\
           "packageDependencies": [\
-            ["hardhat", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:2.17.0"],\
+            ["hardhat", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:2.17.0"],\
             ["@ethersproject/abi", "npm:5.7.0"],\
             ["@metamask/eth-sig-util", "npm:4.0.1"],\
             ["@nomicfoundation/ethereumjs-block", "npm:5.0.1"],\
@@ -4272,12 +4272,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["solc", "npm:0.7.3"],\
             ["source-map-support", "npm:0.5.21"],\
             ["stacktrace-parser", "npm:0.1.10"],\
-            ["ts-node", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:10.9.1"],\
+            ["ts-node", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:10.9.1"],\
             ["tsort", "npm:0.0.1"],\
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"],\
             ["undici", "npm:5.22.1"],\
             ["uuid", "npm:8.3.2"],\
-            ["ws", "virtual:01594553bdd5aafa2464fd0f4816cc3f198824564767b32f903f850e9a5f6ed6db9056f67cf337a8b88f15ba231bea13746457cbbceb296917112504d59328b5#npm:7.5.9"]\
+            ["ws", "virtual:b76fc0fef5481be3be9d91e74988ba7987969c048b85d65a47e1761a255779a2c04ecd92231fc0aa1e2451135ce8484884c0718573ab923ca38662ce4c7a2505#npm:7.5.9"]\
           ],\
           "packagePeers": [\
             "@types/ts-node",\
@@ -4286,35 +4286,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "typescript"\
           ],\
           "linkType": "HARD"\
-        }],\
-        ["workspace:.", {\
-          "packageLocation": "./",\
-          "packageDependencies": [\
-            ["@nomicfoundation/ethereumjs-trie", "npm:6.0.1"],\
-            ["@nomicfoundation/ethereumjs-util", "npm:9.0.1"],\
-            ["@nomicfoundation/hardhat-chai-matchers", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:2.0.1"],\
-            ["@nomicfoundation/hardhat-ethers", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:3.0.4"],\
-            ["@nomicfoundation/hardhat-network-helpers", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:1.0.8"],\
-            ["@nomicfoundation/hardhat-toolbox", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:3.0.0"],\
-            ["@nomicfoundation/hardhat-verify", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:1.0.4"],\
-            ["@openzeppelin/contracts", "npm:4.9.2"],\
-            ["@typechain/ethers-v6", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:0.4.2"],\
-            ["@typechain/hardhat", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:8.0.2"],\
-            ["@types/chai", "npm:4.3.5"],\
-            ["@types/chai-as-promised", "npm:7.1.5"],\
-            ["@types/mocha", "npm:10.0.1"],\
-            ["@types/node", "npm:20.4.2"],\
-            ["chai", "npm:4.3.7"],\
-            ["chai-as-promised", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:7.1.1"],\
-            ["ethers", "npm:6.6.4"],\
-            ["hardhat", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:2.17.0"],\
-            ["hardhat-gas-reporter", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:1.0.9"],\
-            ["solidity-coverage", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:0.8.4"],\
-            ["ts-node", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:10.9.1"],\
-            ["typechain", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:8.3.0"],\
-            ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"]\
-          ],\
-          "linkType": "SOFT"\
         }]\
       ]],\
       ["hardhat-gas-reporter", [\
@@ -4325,14 +4296,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:1.0.9", {\
-          "packageLocation": "./.yarn/__virtual__/hardhat-gas-reporter-virtual-590fbe6490/0/cache/hardhat-gas-reporter-npm-1.0.9-ecc0041089-77f8f8d085.zip/node_modules/hardhat-gas-reporter/",\
+        ["virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:1.0.9", {\
+          "packageLocation": "./.yarn/__virtual__/hardhat-gas-reporter-virtual-faf9b09569/0/cache/hardhat-gas-reporter-npm-1.0.9-ecc0041089-77f8f8d085.zip/node_modules/hardhat-gas-reporter/",\
           "packageDependencies": [\
-            ["hardhat-gas-reporter", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:1.0.9"],\
+            ["hardhat-gas-reporter", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:1.0.9"],\
             ["@types/hardhat", null],\
             ["array-uniq", "npm:1.0.3"],\
-            ["eth-gas-reporter", "virtual:590fbe6490b9c8876341aa6689216998e85d9e69ab346be799f1784dd043aae16f519971899fe38201e3a60ed16e302f9270e79ea9ee4782fb0a4d38a7f29a74#npm:0.2.25"],\
-            ["hardhat", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:2.17.0"],\
+            ["eth-gas-reporter", "virtual:faf9b095691e7336b9db8583e6104e2bbdc9b3b4ae1dc5a8e5d4719dd283d2d936ff0752d9e3179236642269070ab478749acddee0f3976d4a711603fd6d6234#npm:0.2.25"],\
+            ["hardhat", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:2.17.0"],\
             ["sha1", "npm:1.1.1"]\
           ],\
           "packagePeers": [\
@@ -6543,10 +6514,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:5d916b18e86d2be0a856cf25c0d436de963e9a11080a7139bffeb52bc5229488173de91cd8b596e02024f8472fb184b86fb625033ae8b3d6dbcc50e38be45093#npm:1.1.4", {\
-          "packageLocation": "./.yarn/__virtual__/request-promise-core-virtual-63ee1ff575/0/cache/request-promise-core-npm-1.1.4-cb9fff6c90-c798bafd55.zip/node_modules/request-promise-core/",\
+        ["virtual:ea26776f3972c0f2e53c5ff63040a4bb51878ea91fc89578e104bae9cf1a141321ec5031a208bb205c875bfcf1e9b6be0211b693541b3f920eada8484fec29d0#npm:1.1.4", {\
+          "packageLocation": "./.yarn/__virtual__/request-promise-core-virtual-56573bd592/0/cache/request-promise-core-npm-1.1.4-cb9fff6c90-c798bafd55.zip/node_modules/request-promise-core/",\
           "packageDependencies": [\
-            ["request-promise-core", "virtual:5d916b18e86d2be0a856cf25c0d436de963e9a11080a7139bffeb52bc5229488173de91cd8b596e02024f8472fb184b86fb625033ae8b3d6dbcc50e38be45093#npm:1.1.4"],\
+            ["request-promise-core", "virtual:ea26776f3972c0f2e53c5ff63040a4bb51878ea91fc89578e104bae9cf1a141321ec5031a208bb205c875bfcf1e9b6be0211b693541b3f920eada8484fec29d0#npm:1.1.4"],\
             ["@types/request", null],\
             ["lodash", "npm:4.17.21"],\
             ["request", "npm:2.88.2"]\
@@ -6566,13 +6537,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:f16b4eed4269d7118292979e2ca5469eb6253676ce606ff55cc0d528955aaf66f632b878c379236970819c32dc925567be67c22e634c20370997cc8e3ac7752c#npm:1.0.9", {\
-          "packageLocation": "./.yarn/__virtual__/request-promise-native-virtual-5d916b18e8/0/cache/request-promise-native-npm-1.0.9-6ae8e592e8-3e2c694eef.zip/node_modules/request-promise-native/",\
+        ["virtual:08dd7a07d38755471a17322eb3f75b55e547691cb5520b27e6c3b5fe2be50b5611d782e7d7af6e3bfc71f6bb8d7504e690913e0c4d5f04805835ed5309482474#npm:1.0.9", {\
+          "packageLocation": "./.yarn/__virtual__/request-promise-native-virtual-ea26776f39/0/cache/request-promise-native-npm-1.0.9-6ae8e592e8-3e2c694eef.zip/node_modules/request-promise-native/",\
           "packageDependencies": [\
-            ["request-promise-native", "virtual:f16b4eed4269d7118292979e2ca5469eb6253676ce606ff55cc0d528955aaf66f632b878c379236970819c32dc925567be67c22e634c20370997cc8e3ac7752c#npm:1.0.9"],\
+            ["request-promise-native", "virtual:08dd7a07d38755471a17322eb3f75b55e547691cb5520b27e6c3b5fe2be50b5611d782e7d7af6e3bfc71f6bb8d7504e690913e0c4d5f04805835ed5309482474#npm:1.0.9"],\
             ["@types/request", null],\
             ["request", "npm:2.88.2"],\
-            ["request-promise-core", "virtual:5d916b18e86d2be0a856cf25c0d436de963e9a11080a7139bffeb52bc5229488173de91cd8b596e02024f8472fb184b86fb625033ae8b3d6dbcc50e38be45093#npm:1.1.4"],\
+            ["request-promise-core", "virtual:ea26776f3972c0f2e53c5ff63040a4bb51878ea91fc89578e104bae9cf1a141321ec5031a208bb205c875bfcf1e9b6be0211b693541b3f920eada8484fec29d0#npm:1.1.4"],\
             ["stealthy-require", "npm:1.1.1"],\
             ["tough-cookie", "npm:2.5.0"]\
           ],\
@@ -6701,6 +6672,38 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["bn.js", "npm:5.2.1"]\
           ],\
           "linkType": "HARD"\
+        }]\
+      ]],\
+      ["road-to-web3", [\
+        ["workspace:.", {\
+          "packageLocation": "./",\
+          "packageDependencies": [\
+            ["road-to-web3", "workspace:."],\
+            ["@nomicfoundation/ethereumjs-trie", "npm:6.0.1"],\
+            ["@nomicfoundation/ethereumjs-util", "npm:9.0.1"],\
+            ["@nomicfoundation/hardhat-chai-matchers", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:2.0.1"],\
+            ["@nomicfoundation/hardhat-ethers", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:3.0.4"],\
+            ["@nomicfoundation/hardhat-network-helpers", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:1.0.8"],\
+            ["@nomicfoundation/hardhat-toolbox", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:3.0.0"],\
+            ["@nomicfoundation/hardhat-verify", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:1.0.4"],\
+            ["@openzeppelin/contracts", "npm:4.9.2"],\
+            ["@typechain/ethers-v6", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:0.4.2"],\
+            ["@typechain/hardhat", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:8.0.2"],\
+            ["@types/chai", "npm:4.3.5"],\
+            ["@types/chai-as-promised", "npm:7.1.5"],\
+            ["@types/mocha", "npm:10.0.1"],\
+            ["@types/node", "npm:20.4.2"],\
+            ["chai", "npm:4.3.7"],\
+            ["chai-as-promised", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:7.1.1"],\
+            ["ethers", "npm:6.6.4"],\
+            ["hardhat", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:2.17.0"],\
+            ["hardhat-gas-reporter", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:1.0.9"],\
+            ["solidity-coverage", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:0.8.4"],\
+            ["ts-node", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:10.9.1"],\
+            ["typechain", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:8.3.0"],\
+            ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"]\
+          ],\
+          "linkType": "SOFT"\
         }]\
       ]],\
       ["run-parallel", [\
@@ -7062,10 +7065,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:0.8.4", {\
-          "packageLocation": "./.yarn/__virtual__/solidity-coverage-virtual-c8c519c685/0/cache/solidity-coverage-npm-0.8.4-3747ffc34c-263089376d.zip/node_modules/solidity-coverage/",\
+        ["virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:0.8.4", {\
+          "packageLocation": "./.yarn/__virtual__/solidity-coverage-virtual-9473a5b1a5/0/cache/solidity-coverage-npm-0.8.4-3747ffc34c-263089376d.zip/node_modules/solidity-coverage/",\
           "packageDependencies": [\
-            ["solidity-coverage", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:0.8.4"],\
+            ["solidity-coverage", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:0.8.4"],\
             ["@ethersproject/abi", "npm:5.7.0"],\
             ["@solidity-parser/parser", "npm:0.16.1"],\
             ["@types/hardhat", null],\
@@ -7077,7 +7080,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ghost-testrpc", "npm:0.0.2"],\
             ["global-modules", "npm:2.0.0"],\
             ["globby", "npm:10.0.2"],\
-            ["hardhat", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:2.17.0"],\
+            ["hardhat", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:2.17.0"],\
             ["jsonschema", "npm:1.4.1"],\
             ["lodash", "npm:4.17.21"],\
             ["mocha", "npm:7.1.2"],\
@@ -7558,10 +7561,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:706f71e2b3a3b6e59ff28a2552972870e1dca2bd4652039e4e366914abd7b1b13a7c7cfb9a75c3dcbcde1fc275e8438e94d8497e83416e7e6c3a4498237cc116#npm:7.0.3", {\
-          "packageLocation": "./.yarn/__virtual__/ts-essentials-virtual-f45bc57735/0/cache/ts-essentials-npm-7.0.3-dbefe5cb3b-74d75868ac.zip/node_modules/ts-essentials/",\
+        ["virtual:766e477e25db591d9519f0d88252bb4e25a423c4ae07368a6cec145ab0f3af872025a4ab75492905f3b2473614e423c598f94651f259c8af2e9aea7150f63599#npm:7.0.3", {\
+          "packageLocation": "./.yarn/__virtual__/ts-essentials-virtual-1d7eea44c6/0/cache/ts-essentials-npm-7.0.3-dbefe5cb3b-74d75868ac.zip/node_modules/ts-essentials/",\
           "packageDependencies": [\
-            ["ts-essentials", "virtual:706f71e2b3a3b6e59ff28a2552972870e1dca2bd4652039e4e366914abd7b1b13a7c7cfb9a75c3dcbcde1fc275e8438e94d8497e83416e7e6c3a4498237cc116#npm:7.0.3"],\
+            ["ts-essentials", "virtual:766e477e25db591d9519f0d88252bb4e25a423c4ae07368a6cec145ab0f3af872025a4ab75492905f3b2473614e423c598f94651f259c8af2e9aea7150f63599#npm:7.0.3"],\
             ["@types/typescript", null],\
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"]\
           ],\
@@ -7580,10 +7583,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:10.9.1", {\
-          "packageLocation": "./.yarn/__virtual__/ts-node-virtual-9f8d307d22/0/cache/ts-node-npm-10.9.1-6c268be7f4-090adff130.zip/node_modules/ts-node/",\
+        ["virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:10.9.1", {\
+          "packageLocation": "./.yarn/__virtual__/ts-node-virtual-9eeba2f3ae/0/cache/ts-node-npm-10.9.1-6c268be7f4-090adff130.zip/node_modules/ts-node/",\
           "packageDependencies": [\
-            ["ts-node", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:10.9.1"],\
+            ["ts-node", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:10.9.1"],\
             ["@cspotcode/source-map-support", "npm:0.8.1"],\
             ["@swc/core", null],\
             ["@swc/wasm", null],\
@@ -7720,10 +7723,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:8.3.0", {\
-          "packageLocation": "./.yarn/__virtual__/typechain-virtual-9edc80b06d/0/cache/typechain-npm-8.3.0-0f70ed8b10-a23dc5f16f.zip/node_modules/typechain/",\
+        ["virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:8.3.0", {\
+          "packageLocation": "./.yarn/__virtual__/typechain-virtual-2ea64a7fe3/0/cache/typechain-npm-8.3.0-0f70ed8b10-a23dc5f16f.zip/node_modules/typechain/",\
           "packageDependencies": [\
-            ["typechain", "virtual:5a84c2cf800119d4090cdf2bc56dc1cb5509f26da2f995e43d6a67dd68a55fa9af7e6b23638f125b5208fc69690a28097702ee9ec200a93aae3fb6916a38afad#npm:8.3.0"],\
+            ["typechain", "virtual:7fea2ac3e0a5d8e65dcc5ba6efd1c7fdbaee34c542f38b6b9a27cd8e97c9d222b6b68b9b3e09e87c3f5b0f07ceca55001c666daecfb3b8fa52c98576ee9a3c15#npm:8.3.0"],\
             ["@types/prettier", "npm:2.7.3"],\
             ["@types/typescript", null],\
             ["debug", "virtual:ac3d8e680759ce54399273724d44e041d6c9b73454d191d411a8c44bb27e22f02aaf6ed9d3ad0ac1c298eac4833cff369c9c7b84c573016112c4f84be2cd8543#npm:4.3.4"],\
@@ -7734,7 +7737,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mkdirp", "npm:1.0.4"],\
             ["prettier", "npm:2.8.8"],\
             ["ts-command-line-args", "npm:2.5.1"],\
-            ["ts-essentials", "virtual:706f71e2b3a3b6e59ff28a2552972870e1dca2bd4652039e4e366914abd7b1b13a7c7cfb9a75c3dcbcde1fc275e8438e94d8497e83416e7e6c3a4498237cc116#npm:7.0.3"],\
+            ["ts-essentials", "virtual:766e477e25db591d9519f0d88252bb4e25a423c4ae07368a6cec145ab0f3af872025a4ab75492905f3b2473614e423c598f94651f259c8af2e9aea7150f63599#npm:7.0.3"],\
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"]\
           ],\
           "packagePeers": [\
@@ -8168,10 +8171,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:01594553bdd5aafa2464fd0f4816cc3f198824564767b32f903f850e9a5f6ed6db9056f67cf337a8b88f15ba231bea13746457cbbceb296917112504d59328b5#npm:7.5.9", {\
-          "packageLocation": "./.yarn/__virtual__/ws-virtual-67d088d1e0/0/cache/ws-npm-7.5.9-26f12a5ed6-c3c100a181.zip/node_modules/ws/",\
+        ["virtual:88293ff29fa54efecc98d655f7a7551b282025b3465bc23ca5bb7a89a31c17930a7319e98225cf138bf4e6ccead5b30ae3c800738697b87af3441226d65f7ee3#npm:7.4.6", {\
+          "packageLocation": "./.yarn/__virtual__/ws-virtual-e1e964a4e5/0/cache/ws-npm-7.4.6-9c9a725604-3a990b32ed.zip/node_modules/ws/",\
           "packageDependencies": [\
-            ["ws", "virtual:01594553bdd5aafa2464fd0f4816cc3f198824564767b32f903f850e9a5f6ed6db9056f67cf337a8b88f15ba231bea13746457cbbceb296917112504d59328b5#npm:7.5.9"],\
+            ["ws", "virtual:88293ff29fa54efecc98d655f7a7551b282025b3465bc23ca5bb7a89a31c17930a7319e98225cf138bf4e6ccead5b30ae3c800738697b87af3441226d65f7ee3#npm:7.4.6"],\
             ["@types/bufferutil", null],\
             ["@types/utf-8-validate", null],\
             ["bufferutil", null],\
@@ -8185,10 +8188,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["virtual:88293ff29fa54efecc98d655f7a7551b282025b3465bc23ca5bb7a89a31c17930a7319e98225cf138bf4e6ccead5b30ae3c800738697b87af3441226d65f7ee3#npm:7.4.6", {\
-          "packageLocation": "./.yarn/__virtual__/ws-virtual-e1e964a4e5/0/cache/ws-npm-7.4.6-9c9a725604-3a990b32ed.zip/node_modules/ws/",\
+        ["virtual:b76fc0fef5481be3be9d91e74988ba7987969c048b85d65a47e1761a255779a2c04ecd92231fc0aa1e2451135ce8484884c0718573ab923ca38662ce4c7a2505#npm:7.5.9", {\
+          "packageLocation": "./.yarn/__virtual__/ws-virtual-a0e447e837/0/cache/ws-npm-7.5.9-26f12a5ed6-c3c100a181.zip/node_modules/ws/",\
           "packageDependencies": [\
-            ["ws", "virtual:88293ff29fa54efecc98d655f7a7551b282025b3465bc23ca5bb7a89a31c17930a7319e98225cf138bf4e6ccead5b30ae3c800738697b87af3441226d65f7ee3#npm:7.4.6"],\
+            ["ws", "virtual:b76fc0fef5481be3be9d91e74988ba7987969c048b85d65a47e1761a255779a2c04ecd92231fc0aa1e2451135ce8484884c0718573ab923ca38662ce4c7a2505#npm:7.5.9"],\
             ["@types/bufferutil", null],\
             ["@types/utf-8-validate", null],\
             ["bufferutil", null],\

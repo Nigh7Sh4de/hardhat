@@ -3707,36 +3707,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hardhat@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "hardhat@workspace:."
-  dependencies:
-    "@nomicfoundation/ethereumjs-trie": ^6.0.1
-    "@nomicfoundation/ethereumjs-util": ^9.0.1
-    "@nomicfoundation/hardhat-chai-matchers": ^2.0.1
-    "@nomicfoundation/hardhat-ethers": ^3.0.4
-    "@nomicfoundation/hardhat-network-helpers": ^1.0.8
-    "@nomicfoundation/hardhat-toolbox": ^3.0.0
-    "@nomicfoundation/hardhat-verify": ^1.0.4
-    "@openzeppelin/contracts": ^4.9.2
-    "@typechain/ethers-v6": ^0.4.2
-    "@typechain/hardhat": ^8.0.2
-    "@types/chai": ^4.3.5
-    "@types/chai-as-promised": ^7.1.5
-    "@types/mocha": ^10.0.1
-    "@types/node": ^20.4.2
-    chai: ^4.3.7
-    chai-as-promised: ^7.1.1
-    ethers: ^6.6.4
-    hardhat: ^2.17.0
-    hardhat-gas-reporter: ^1.0.9
-    solidity-coverage: ^0.8.4
-    ts-node: ^10.9.1
-    typechain: ^8.3.0
-    typescript: ^5.1.6
-  languageName: unknown
-  linkType: soft
-
 "has-bigints@npm:^1.0.1, has-bigints@npm:^1.0.2":
   version: 1.0.2
   resolution: "has-bigints@npm:1.0.2"
@@ -5908,6 +5878,36 @@ __metadata:
   checksum: 3db4dfe5c793f40ac7e0be689a1f75d05e6f2ca0c66189aeb62adab8c436b857ab4420a419251ee60370d41d957a55698fc5e23ab1e1b41715f33217bc4bb558
   languageName: node
   linkType: hard
+
+"road-to-web3@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "road-to-web3@workspace:."
+  dependencies:
+    "@nomicfoundation/ethereumjs-trie": ^6.0.1
+    "@nomicfoundation/ethereumjs-util": ^9.0.1
+    "@nomicfoundation/hardhat-chai-matchers": ^2.0.1
+    "@nomicfoundation/hardhat-ethers": ^3.0.4
+    "@nomicfoundation/hardhat-network-helpers": ^1.0.8
+    "@nomicfoundation/hardhat-toolbox": ^3.0.0
+    "@nomicfoundation/hardhat-verify": ^1.0.4
+    "@openzeppelin/contracts": ^4.9.2
+    "@typechain/ethers-v6": ^0.4.2
+    "@typechain/hardhat": ^8.0.2
+    "@types/chai": ^4.3.5
+    "@types/chai-as-promised": ^7.1.5
+    "@types/mocha": ^10.0.1
+    "@types/node": ^20.4.2
+    chai: ^4.3.7
+    chai-as-promised: ^7.1.1
+    ethers: ^6.6.4
+    hardhat: ^2.17.0
+    hardhat-gas-reporter: ^1.0.9
+    solidity-coverage: ^0.8.4
+    ts-node: ^10.9.1
+    typechain: ^8.3.0
+    typescript: ^5.1.6
+  languageName: unknown
+  linkType: soft
 
 "run-parallel-limit@npm:^1.1.0":
   version: 1.1.0
